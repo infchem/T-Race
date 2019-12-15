@@ -12,6 +12,8 @@ Ein Spiel besteht aus einem Server, mehreren Shops und den Smartphones der Spiel
 - 6 Calliope mini
 - 6 Micro-USB-Kabel
 - 1 MakeyMakey
+- 1 Android Smartphone oder -Tablet
+- 1 Laptop
 - 1 Beamer
 - 1 Hau den Dino-Spiel für Kasino
 - 1 Heißer Dino-Spiel für Kasino
