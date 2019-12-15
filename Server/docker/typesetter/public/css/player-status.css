@@ -1,0 +1,16 @@
+#player-status-container {
+    text-align: right;
+}
+
+#player-logout-button {
+    border: none;
+    background: none;
+    color: #18bc9c;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+#player-logout-button:hover {
+    text-decoration: underline;
+}

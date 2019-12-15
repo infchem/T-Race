@@ -1,0 +1,39 @@
+<form id="player-registration" class="table-input">
+    <table>
+        <tr>
+            <td>Vorname</td>
+            <td><input id="player-given-name" type="text"></td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td><input id="player-last-name" type="text"></td>
+        </tr>
+        <tr>
+            <td>Spielername</td>
+            <td><input id="player-nickname" type="text"></td>
+        </tr>
+        <tr>
+            <td>Alter</td>
+            <td><input id="player-age" type="number"></td>
+        </tr>
+        <tr>
+            <td>Geschlecht</td>
+            <td>
+                <fieldset>
+                    <input id="player-gender-male" type="radio" name="player-gender" value="0">
+                    <label for="player-gender-male">Männlich</label>
+                    <input id="player-gender-female" type="radio" name="player-gender" value="1">
+                    <label for="player-gender-female">Weiblich</label>
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td>PIN</td>
+            <td><input id="player-pin" type="password" maxlength=4></td>
+        </tr>
+    </table>
+
+    <input type="submit" value="Registrieren">
+</form>
+
+<div id="player-registration-message" class="table-input-message"></div>

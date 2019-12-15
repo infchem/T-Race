@@ -1,0 +1,38 @@
+<h3>Statistiken</h3>
+
+<ul>
+    <li>Aufgrund deines Kaufverhaltens ist deine Fitness um <b>{{fitnessChange}}%</b> {{fitnessChangeTrendStr}}.</li>
+    <li>Du hast <b>{{numSpendedTraceys}}</b> Traceys ausgegeben.</li>
+    <li>Deiner erster Kauf war <b>{{timeFirstPurchase}} Sekunden</b> nach Spielstart.</li>
+    <li>Dein teuerster Kauf war <b>{{mostExpensivePurchase}}</b>.</li>
+    <li>Der häufigst angetippte Gutschein war <b>{{mostUsedVoucher}}</b>.</li>
+    <li>Du hast <b>{{numRedeemedVouchers}} von {{numTotalVouchers}}</b> Gutscheinen aktiviert.</li>
+</ul>
+
+<div id="player-result-canvases">
+    <div class="canvas-container">
+        <canvas id="player-result-canvas-num-bought"></canvas>
+    </div>
+    <div class="canvas-container">
+        <canvas id="player-result-canvas-shop-visits"></canvas>
+    </div>
+</div>
+
+
+<h3>Erkennst Du Dich wieder?</h3>
+
+<p>Du bist mit...</p>
+
+<ul>
+    <li>{{classifications.Guthaben}} Guthaben</li>
+    <li>{{classifications.Fitness}} Fitness</li>
+    <li>{{classifications.Essen}} Essen</li>
+</ul>
+
+ein <b>{{classifications.dinosaurName}}</b><br/>.
+<img src="/public/img/{{classifications.dinosaurName}}.jpg">
+
+
+<h3>Vergleiche mit Altersgruppen</h3>
+
+<ul>{{didYouKnowDOM}}</ul>

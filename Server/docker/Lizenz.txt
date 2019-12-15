@@ -1,0 +1,7 @@
+Medoo 
+https://medoo.in
+MIT
+
+Typesetter CMS
+http://www.typesettercms.com/
+GPL

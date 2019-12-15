@@ -1,0 +1,23 @@
+﻿# Hardware
+
+Calliope mini
+Pi0 mit GrovePi0
+Grove NFC
+
+Taster für Spielauswahl (P0)
+Buzzer für Spielstart (P1)
+Stromkreis für heißer Draht (P2)
+"Zielfeld" (P2)
+
+Taster 1 für Heißer Draht wird gedrückt.
+Spielernummer mit NFC-Karte einlesen.
+Buzzer wird gedrückt: Zeitmessung startet.
+Zeit-Variable wird erhöht, bis Zielfeld erreicht ist. (Glücklicher Smiley)
+Wird Draht berührt, ist das Spiel verloren: Trauriger Smiley
+Zeit + Spielernummer werden seriell an Pi0 übertragen.
+
+Taster 2 für Hau-Den-Dino wird gedrückt.
+Spielernummer mit NFC-Karte einlesen.
+
+Buzzer wird gedrückt: Zeitmessung startet.
+

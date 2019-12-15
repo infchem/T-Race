@@ -1,0 +1,14 @@
+﻿Leiste mit Shop-Symbol
+
+Bäcker: Anleitung, wie man einkauft
+
+Kasino: Anleitung, wie man spielt. Wenn an Calliope Spiel gestartet und Spielerkarte eingescannt wurde, wechselt die 
+Anleitung zum Eingabeformular für den von Scatch generierten Code.
+Wenn Ergebnis schlecht und kein Einkauf von gesunden Artikeln erfolgt ist, gib entsprechende Meldung aus. 
+("Hättest du mal keine <Pommes> gegessen!")
+Fitness wird in DB hochgesetzt um xxx.
+
+
+
+
+

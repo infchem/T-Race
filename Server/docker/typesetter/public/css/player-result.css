@@ -1,0 +1,10 @@
+#player-result-canvases {
+    display: flex;
+    flex-direction: column;
+}
+
+#player-result-canvases .canvas-container {
+    width: 100%;
+    height: 25em;
+    margin: 2.5%;
+}

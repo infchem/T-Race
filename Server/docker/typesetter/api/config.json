@@ -1,0 +1,6 @@
+{
+    "vouchers": {
+        "maxGenerate": 4,
+        "expiryPenalty": 0.1
+    }
+}

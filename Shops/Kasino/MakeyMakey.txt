@@ -1,0 +1,19 @@
+﻿# Hardware
+
+Tablet 
+MakeyMakey
+Beamer
+Beamerhalterung
+Wireless Display Adapter
+"Hammer"
+"intelligentes" Spielfeld
+
+
+# Software
+Scratch-Projekt "Hau den Dino"
+Anpassung: Eingabe von Vorname und Name
+Spiel....
+Am Ende: Code-Generierung aus Vorname, Nachname, Trefferzahl
+
+
+

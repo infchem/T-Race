@@ -1,0 +1,15 @@
+version: '3.3'
+
+services:
+    trace:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        volumes:
+            - ./config/lighttpd.conf:/etc/lighttpd/lighttpd.conf
+            - ./config/php.ini:/etc/php/7.0/cgi/php.ini
+            - ./typesetter:/var/www/html
+            - ./misc/entrypoint.sh:/root/entrypoint.sh
+        ports:
+            - "8080:80"
+        entrypoint: /root/entrypoint.sh

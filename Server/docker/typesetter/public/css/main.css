@@ -1,0 +1,39 @@
+form.table-input {
+    width: 40rem;
+}
+
+form.table-input > table {
+    width: 100%;
+}
+
+form.table-input td:first-of-type {
+    text-align: right;
+    padding: 1rem 2rem;
+    font-weight: bold;
+}
+
+form.table-input label {
+    font-weight: initial;
+    padding-right: 1em;
+}
+
+form.table-input input:not([type=radio]) {
+    width: 100%;
+    border: 1px solid #AAA;
+}
+
+form.table-input input[type=submit] {
+    margin-top: 2rem;
+}
+
+.table-input-message {
+    margin-top: 2rem;
+}
+
+.table-input-message.error {
+    color: #A00;
+}
+
+.table-input-message.success {
+    color: #0A0;
+}
