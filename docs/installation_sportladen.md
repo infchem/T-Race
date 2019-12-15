@@ -21,7 +21,7 @@
 
 ## Vorbereitung der Hardware
 1. Der Pi Zero W wird entsprechend der Anleitung für alle Shops vorbereitet.
-2. Mit einem Computer wird die Datei mini-Sportladen.hex auf den Calliope mini kopiert.
+2. Mit einem Computer wird die Datei [mini-Sportladen.hex](https://github.com/infchem/T-Race/blob/master/Shops/Sportladen/mini-Sportladen.hex) auf den Calliope mini kopiert.
 2. Der Calliope mini wird am linken Grove-Anschluss A0 per Kabel mit dem I2C Hub verbunden.
 3. An den Hub werden Grove NFC und Grove I2C Multitouch per Kabel angeschlossen.
 4. Der Calliope mini wird per USB-Kabel an den USB-Adapter und dann an den Pi Zero W angeschlossen.
