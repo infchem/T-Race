@@ -29,4 +29,4 @@
 * Fühler 1: Käsebrötchen
 * Fühler 2: Franzbrötchen
 * Fühler 3: Salamibrötchen
-7. An Pin P0 und dem Minuspol werden zwei Krokoklemmen oder Draht angeschlossen und mit einem Taster verbunden.
+8. An Pin P0 und dem Minuspol werden zwei Krokoklemmen oder Draht angeschlossen und mit einem Taster verbunden.
