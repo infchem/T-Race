@@ -1,31 +1,4 @@
 ﻿# Der Sportladen
-## Hardware
-
-* Pi Zero W
-* Blinkt! Modul
-* Calliope mini
-* Grove NFC
-* Grove I2C Multitouch mit drei Fühlern
-* Grove I2C Hub
-* Drei Grove Anschlusskabel
-* Micro-USB-Kabel
-* Micro-USB auf USB-Adapter
-* Stromversorgung zu Pi Zero W
-* Zwei Krokoklemmen (oder Drähte) und (selbstgebauter) Taster
-* ggf. passendes, selbstgebautes Gehäuse
-
-## Vorbereitung der Hardware
-1. Der Pi Zero W wird entsprechend der Anleitung für alle Shops vorbereitet.
-2. Mit einem Computer wird die Datei mini-Sportladen.hex auf den Calliope mini kopiert.
-2. Der Calliope mini wird am linken Grove-Anschluss A0 per Kabel mit dem I2C Hub verbunden.
-3. An den Hub werden Grove NFC und Grove I2C Multitouch per Kabel angeschlossen.
-4. Der Calliope mini wird per USB-Kabel an den USB-Adapter und dann an den Pi Zero W angeschlossen.
-5. Auf dem Pi wird das Blinkt! Modul gesteckt.
-6. Die drei Fühler werden wie folgt hinter die Artikelbilder geklebt:
-* Fühler 0: Taucher-Set
-* Fühler 1: Anziehpuppe
-* Fühler 2: 3D-Anziehpuppe
-7. An Pin P0 und dem Minuspol werden zwei Krokoklemmen angeschlossen und mit einem Taster verbunden
 
 ## Spielvorbereitung
 Zuerst sollte der zentrale Server gestartet werden, um eine hängende Datenübertragung zu vermeiden.
