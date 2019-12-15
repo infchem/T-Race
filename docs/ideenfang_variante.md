@@ -1,6 +1,6 @@
 # T-Race in der Ideenfang-Variante
 ## Materialliste
-Ein Spiel besteht aus einem Server, mehreren Shops und den Smartphones der Spieler. In der Ideenfang-Variante werden für Server und Shops insgesmt folgende Dinge benötigt:
+Ein Spiel besteht aus einem Server, mehreren Shops und den Smartphones der Spieler. In der Ideenfang-Variante werden für Server und Shops insgesamt folgende Dinge benötigt:
 
 - 7 RaspberryPi Zero W 
 - 7 Netzteile oder Powerbanks mit Micro-USB-Kabel 
@@ -30,12 +30,12 @@ Für die Shops gibt es für die RaspberryPi Zero W eine [gemeinsame Anleitung](i
 
 Die unterschiedlichen Anpassungen an den Calliope mini und die unterschiedliche Hardware sind:
 
-- für den Bäcker
-- für den Fanshop
-- für den Sportladen
-- für das Fast Food-Restaurant
-- für das Kasino
-- für den Supermarkt
-- für den Webshop
+- für den [Bäcker](installation_bäcker.md)
+- für den [Fanshop](installation_fanshop.md)
+- für den [Sportladen](installation_sportladen.md)
+- für das [Fast Food-Restaurant](installation_fastfood.md)
+- für das [Kasino](installation_kasino.md)
+- für den [Supermarkt](installation_supermarkt.md)
+- für den [Webshop](installation_webshop.md)
 
 Wir haben auf der IdeenExpo jede Shop-Hardware in eine Sortierbox aus dem Baumarkt eingebaut. Hierzu gibt es auch eine [Anleitung](sortierbox_shops.md).  
