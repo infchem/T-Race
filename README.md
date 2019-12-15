@@ -1,5 +1,5 @@
 # T-Race
-!(docs/t-race_github.png)
+![alt text](docs/t-race_github.png "T-Race Logo")
 
-[Dokumentation](./docs/index.md)
+[Dokumentation](https://infchem.github.io/T-Race/)
 
