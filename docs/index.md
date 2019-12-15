@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+# T-Race: ein rasantes Spiel zum Thema Datenspuren!
 
-You can use the [editor on GitHub](https://github.com/infchem/T-Race/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+![T-Race](https://github.com/infchem/T-Race/raw/master/docs/t-race_github.png)
+Bezahlen mit Smartphone und drahtlosen Chipkarten wird immer beliebter. Doch welche Spuren hinterlässt man dabei? Mit dem eigenen Smartphone kann im rasanten Spiel T-Race die eigene Datenspur entdeckt werden - komplett ohne Risiken und Nebenwirkungen: T-Race funktioniert mit einem lokalen WLAN-Hotspot und Webserver, der keine Verbindung ins Internet ermöglicht!
+Das Spiel wurde 2018/2019 in der Medienscout AG des [Lessing-Gymnasiums Uelzen](https://www.leg-uelzen.de) entwickelt und ist mit &#x2764; für den Einsatz im Schulunterricht gestaltet und erprobt worden. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+T-Race ist das Gewinnerprojekt des Ideenfang-Wettbewerbs auf der IdeenExpo 2019 in der 2. Altersgruppe! Hier ist das Video der Preisverleihung: 
 
-### Markdown
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=iMUnrel8Pag
+" target="_blank"><img src="http://img.youtube.com/vi/iMUnrel8Pag/0.jpg" 
+alt="IdeenExpo 2019 Preisverleihung" width="360" height="240" border="10" /></a>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Wer das Spiel im Unterricht einsetzen möchte, verwendet in der **Ideenfang-Variante** ein paar Calliope mini mit externen Sensoren für NFC-Karten und Multitouch sowie ein paar Raspberry Pi Zero mit Zubehör, wie Blinkt! Modulen. Zusätzlich wird ein MakeyMakey benötig. Für die Shopartikel können kleine Objekte mit einem 3D-Drucker und einem Schneideplotter angefertigt werden. Für eine Neuanschaffung ist diese Variante die teuerste.
 
-```markdown
-Syntax highlighted code block
+- Dokumentation Ideenfang-Variante
 
-# Header 1
-## Header 2
-### Header 3
+Für die **Budget-Variante** arbeiten wir zur Zeit daran, günstigere Hardware wie Arduino Nano, ESP8266 und STM32F103C8T6 zu programmieren und zu testen. Das klingt noch sehr kompliziert, wird aber wirklich viel günstiger! Und wir dokumentieren das natürlich auch gut. 😉
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/infchem/T-Race/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
