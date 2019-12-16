@@ -1,4 +1,6 @@
 # Installation und Einrichtung der Shops
+
+[TOC]
 ## microSD vorbereiten
 1. [Raspian](https://downloads.raspberrypi.org/raspbian_full_latest) herunterladen und
 2. mit [Etcher]( https://www.balena.io/etcher/) auf eine leere microSD-Karte schreiben:
