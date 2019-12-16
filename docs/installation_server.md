@@ -4,7 +4,7 @@
 2. mit [Etcher]( https://www.balena.io/etcher/) auf eine leere microSD-Karte schreiben:
 
 ## Headless Setup WLAN und SSH
-In der ersten, kleineren Boot-Partition
+In der ersten (kleineren) Boot-Partition
 1. eine leere Datei mit dem Namen `ssh` anlegen und
 2. eine Datei `wpa_supplicant.conf` anlegen mit folgendem Inhalt:  
 
@@ -28,16 +28,16 @@ Mit [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) eine
 	   
 ## Installation von screen (optional)
 Hilfreich, wenn die Verbindung zum Pi mal abbrechen sollte. Weitere Hinweise hierzu: https://wiki.ubuntuusers.de/Screen/
-        sudo apt-get install screen
+       sudo apt-get install screen
 
 ## Installation von RaspAP
     sudo wget -q https://git.io/voEUQ -O /tmp/raspap && bash /tmp/raspap
-Installation mit `y` starten, mit `Y` bestätigen.
-Die weiteren 3 Abfragen mit `Y` bestätigen.
+Installation mit `Y` starten, mit `Y` bestätigen.
+Die weiteren Abfragen mit `Y` bestätigen.
 Der Webserver lighttpd und PHP werden automatisch mit installliert.
 
 ## Installation von sqlite, php-sqlite und php-gd
-    sudo apt-get install sqlite php7.0-sqlite3 php-gd
+    sudo apt-get install sqlite php-sqlite3 php-gd
 
 ## Konfiguration von mod_rewrite
     sudo lighttpd-enable-mod rewrite    
@@ -101,14 +101,14 @@ Erweitert
 * Einstellungen speichern  
 
 DHCP Server einrichten
-* Gültigkeit: 12 Hours(s)
+* Gültigkeit: 2 Hours(s)
 * Einstellungen speichern
 
 Authentifizierung einrichten
 * Altes Passwort: secret
 * Neues Passwort: traceadmin
 
-Danach Hotspot neu starten über System, Neustart .
+Danach Hotspot neu starten über System, Neustarten .
 
 ## DNS editieren:  
 Mit `sudo nano /etc/dnsmasq.conf` folgende Zeile ergänzen:  
@@ -123,8 +123,8 @@ Eintragen folgender Werte in das Formular:
 * T-Race
 * admin@t-race.de
 * admin
-* tracegame
-* tracegame
+* traceadmin
+* traceadmin
 
 Auf `View your Website` klicken. Achtung: längere Ladezeit beim ersten Aufruf!
 
