@@ -24,13 +24,13 @@ Ein Spiel besteht aus einem Server, mehreren Shops und den Smartphones der Spiel
 
 
 ## Server
-Für den Server gibt es eine separate [Anleitung](installation_server.md)!
+Für den Server gibt es eine separate [Anleitung](installation_server.md).
 
 ## Shops
 
 Für die Shops gibt es für die RaspberryPi Zero W eine [gemeinsame Anleitung](installation_shops.md).
 
-Die unterschiedlichen Anpassungen an den Calliope mini und die unterschiedliche Hardware sind:
+Die unterschiedlichen Anpassungen an die Calliope mini und sonstige Hardware sind:
 
 - für den [Bäcker](installation_bäcker.md)
 - für den [Fanshop](installation_fanshop.md)
