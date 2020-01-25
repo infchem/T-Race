@@ -40,4 +40,4 @@ Die unterschiedlichen Anpassungen an die Calliope mini und sonstige Hardware sin
 - für den [Supermarkt](installation_supermarkt.md)
 - für den [Webshop](installation_webshop.md)
 
-Wir haben auf der IdeenExpo jede Shop-Hardware in eine Sortierbox aus dem Baumarkt eingebaut. Hierzu gibt es auch eine [Anleitung](sortierbox_shops.md).  
+Wir haben auf der IdeenExpo jede Shop-Hardware in eine Sortierbox aus dem Baumarkt eingebaut. Hierzu gibt es auch eine [Anleitung](shopbox_anleitung.md).  
