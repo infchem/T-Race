@@ -3,6 +3,7 @@
 In der T-Race Ideenfang-Variante werden die Calliope mini und RaspberryPi W mit den
 Grove-Sensoren und etwas Dekomaterial in Werkzeugboxen aus dem Baumarkt verbaut.
 Ein zerlegter Bäckershop besteht aus folgenden Teilen:
+
 ![T-Race](https://github.com/infchem/T-Race/raw/master/docs/shopbox_material.jpg)
 
 
@@ -26,6 +27,9 @@ Ein zerlegter Bäckershop besteht aus folgenden Teilen:
 - Cutter, Schere
 - Butterbrotpapier
 - Laminierfolie und -gerät
+- Artikelbilder
+- ggf. Shopschild
+- externer Schalter, zum Beispiel [Kartoffelsackschalter](Kartoffelsackschalter.pdf)
 
 ## Video mit Aufbauanleitung 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=tBm3iVFp_Bo" 
