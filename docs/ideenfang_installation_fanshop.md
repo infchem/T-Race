@@ -1,5 +1,7 @@
 # Installation Fanshop
 
+![Fanshop in der Ideenfang-Variante](fotos/Fanshop_Ideenfang.jpg?raw=true "Title")
+
 ## Hardware
 
 * Pi Zero W

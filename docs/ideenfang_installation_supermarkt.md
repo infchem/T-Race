@@ -1,5 +1,7 @@
 # Installation Supermarkt
 
+![Supermarkt in der Ideenfang-Variante](fotos/Supermarkt_Ideenfang.jpg?raw=true "Title")
+
 ## Hardware
 
 * Pi Zero W

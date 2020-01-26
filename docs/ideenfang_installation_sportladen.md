@@ -1,5 +1,7 @@
 # Installation Sportladen
 
+![Sportladen in der Ideenfang-Variante](fotos/Sportladen_Ideenfang.jpg?raw=true "Title")
+
 ## Hardware
 
 * Pi Zero W

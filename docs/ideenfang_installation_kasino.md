@@ -1,5 +1,7 @@
 # Installation Kasino
 
+![Kasino in der Ideenfang-Variante](fotos/Kasino_Ideenfang.jpg?raw=true "Title")
+
 ## Hardware
 
 * Pi Zero W

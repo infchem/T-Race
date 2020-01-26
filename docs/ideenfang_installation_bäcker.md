@@ -1,5 +1,7 @@
 # Installation Bäcker
 
+![Bäcker in der Ideenfang-Variante](fotos/Bäcker_Ideenfang.jpg?raw=true "Title")
+
 ## Hardware
 
 * Pi Zero W
