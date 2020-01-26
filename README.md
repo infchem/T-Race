@@ -1,9 +1,11 @@
 # T-Race: ein rasantes Spiel zum Thema Datenspuren!
 
-![T-Race](https://github.com/infchem/T-Race/raw/master/docs/t-race_github.png)
+<img src="docs/t-race_github.png" alt="IdeenExpo 2019 Preisverleihung" width="800" border="10" />
+
 Bezahlen mit Smartphone und drahtlosen Chipkarten wird immer beliebter. Doch welche Spuren hinterlässt man dabei? Mit dem eigenen Smartphone kann im rasanten Spiel T-Race die eigene Datenspur entdeckt werden - komplett ohne Risiken und Nebenwirkungen: T-Race funktioniert mit einem lokalen WLAN-Hotspot und Webserver, der keine Verbindung ins Internet ermöglicht!
 
-![Spielszene aus T-Race](docs/fotos/Spielszene.jpg?raw=true "Title")
+<img src="docs/fotos/Spielszene.jpg" 
+alt="IdeenExpo 2019 Preisverleihung" width="800" border="10" />
 
 Das Spiel wurde 2018/2019 in der Medienscout AG des [Lessing-Gymnasiums Uelzen](https://www.leg-uelzen.de) entwickelt und ist mit &#x2764; für den Einsatz im Schulunterricht gestaltet und erprobt worden. 
 

@@ -60,7 +60,6 @@ Webserver neu starten mit `sudo service lighttpd force-reload`.
 
 Fehlermeldung ignorieren.
 
-
 ## Typesetter CMS installieren
 1. `sudo wget https://github.com/Typesetter/Typesetter/archive/master.zip`
 2. `sudo unzip master.zip`
@@ -71,6 +70,26 @@ Fehlermeldung ignorieren.
 4. `sudo chown -R www-data html`
 5. `sudo chgrp -R www-data html`
 
+## Typesetter einrichten
+Installation durch Aufruf von **10.3.141.1** im Browser öffnen.
+Eintragen folgender Werte in das Formular:
+* T-Race
+* admin@t-race.de
+* admin
+* traceadmin
+* traceadmin
+
+Auf `View your Website` klicken. Achtung: längere Ladezeit beim ersten Aufruf!
+
+Datei */include/install/install.php* mit `sudo rm -rf /var/www/html/include/install/install.php` löschen.
+
+## T-Race Dateien übertragen
+1. Ins Homeverzeichnis wechseln mit `cd ~`.
+1. Vorbereitetes Typesetter Addon, Seiten, Mediendateien und Datenbank herunterladen mit
+   `sudo wget https://github.com/infchem/T-Race/blob/master/Server/t-race.zip`
+2. `Ausführen von `sudo unzip -o t-race.zip -d /var/www/html/`. Letztes / nicht vergessen!.
+3. `sudo chown -R www-data /var/www/html`
+4. `sudo chgrp -R www-data /var/www/html`
 
 ## Fertigstellung mit raspi-config
 
@@ -117,18 +136,8 @@ Mit `sudo nano /etc/dnsmasq.conf` folgende Zeile ergänzen:
 
 Abspeichern mit Strg+o und Enter, Beenden mit Strg+x
 
-## Typesetter einrichten
-Installation durch Aufruf von **10.3.141.1** im Browser öffnen.
-Eintragen folgender Werte in das Formular:
-* T-Race
-* admin@t-race.de
-* admin
-* traceadmin
-* traceadmin
 
-Auf `View your Website` klicken. Achtung: längere Ladezeit beim ersten Aufruf!
+    
 
-Datei */include/install/install.php* löschen.
 
-# Dateien übertragen
-Zugriff mit WinSCP
+

@@ -1,6 +1,6 @@
 # T-Race in der Ideenfang-Variante
 
-Mit dieser Variante wurde T-Race auf der IdeenExpo 2019 präsentiert. Sie verwendet unter anderem Calliope mini und RaspberryPi Zero und ist daher sicherlich nicht die günstige Variante.
+Mit dieser Variante wurde T-Race auf der [IdeenExpo 2019](https://www.ideenexpo.de) präsentiert. Sie verwendet unter anderem Calliope mini und RaspberryPi Zero und ist daher sicherlich nicht die günstige Variante.
 Allerdings kann die Hardware für andere Unterrichtsprojekte problemlos weiterverwendet werden. 
 
 ## Materialliste
@@ -24,7 +24,12 @@ Ein Spiel besteht aus einem Server, mehreren Shops und den Smartphones der Spiel
 - NFC-Karten ((ISO/IEC-Norm 14443-3A, z.B. Mifare(R) Ultralight(R))
 - ggf. Shopartikel (3D-Druck, Schneideplotter)
 - 3 A4-Seiten Farbausdrucke
-- Laminiergerät, falls vorhanden
+- Butterbrotpapier
+- Bindedraht
+- 12 Krookoklemmen
+- Laminiergerät
+- 24 M3 Schrauben mit Muttern
+- Schere, Zange, Cutter, Akkusschrauber mit Holzbohrern, Schraubendreher
 
 
 ## Server
@@ -32,7 +37,7 @@ Für den Server gibt es eine separate [Anleitung](installation_server.md).
 
 ## Shops
 
-Für die Shops gibt es für die RaspberryPi Zero W eine [gemeinsame Anleitung](ideenfang_installation_shops.md).
+Für die Softwareinstallation gibt es für die RaspberryPi Zero W eine [gemeinsame Anleitung](ideenfang_installation_shops.md).
 
 Die unterschiedlichen Anpassungen an die Calliope mini und sonstige Hardware sind:
 
@@ -44,4 +49,6 @@ Die unterschiedlichen Anpassungen an die Calliope mini und sonstige Hardware sin
 - für den [Supermarkt](ideenfang_installation_supermarkt.md)
 - für den [Webshop](ideenfang_installation_webshop.md)
 
-Wir haben auf der IdeenExpo 2019 jede Shop-Hardware in eine Sortierbox aus dem Baumarkt eingebaut. Hierzu gibt es auch eine [Anleitung](shopbox_anleitung.md).  
+### Shopboxen
+<img src="docs/fotos/Demo_Ideenfang.png" alt="Demo-Shop ohne Schirm" width="800" border="10" />
+Wir haben auf der [IdeenExpo 2019](https://www.ideenexpo.de) jede Shop-Hardware in eine Sortierbox aus dem Baumarkt eingebaut. Hierzu gibt es auch eine [Anleitung](shopbox_anleitung.md).  
