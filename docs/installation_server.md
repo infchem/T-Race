@@ -84,12 +84,14 @@ Auf `View your Website` klicken. Achtung: längere Ladezeit beim ersten Aufruf!
 Datei */include/install/install.php* mit `sudo rm -rf /var/www/html/include/install/install.php` löschen.
 
 ## T-Race Dateien übertragen
-1. Ins Homeverzeichnis wechseln mit `cd ~`.
+1. In das Homeverzeichnis wechseln mit `cd ~`.
 1. Vorbereitetes Typesetter Addon, Seiten, Mediendateien und Datenbank herunterladen mit
-   `sudo wget https://github.com/infchem/T-Race/blob/master/Server/t-race.zip`
-2. `Ausführen von `sudo unzip -o t-race.zip -d /var/www/html/`. Letztes / nicht vergessen!.
+   `sudo wget https://github.com/infchem/T-Race/blob/master/Server/t-race.zip?raw=true`
+2. Ausführen von `sudo unzip -o t-race.zip -d /var/www/html/`. Letztes / nicht vergessen!.
 3. `sudo chown -R www-data /var/www/html`
 4. `sudo chgrp -R www-data /var/www/html`
+
+Die Datei t-race.zip nicht löschen, da später durch erneutes Ausführen der Schritte 2-4 T-Race zurückgesetzt werden kann.
 
 ## Fertigstellung mit raspi-config
 
@@ -127,7 +129,7 @@ Authentifizierung einrichten
 * Altes Passwort: secret
 * Neues Passwort: traceadmin
 
-Danach Hotspot neu starten über System, Neustarten .
+Danach Hotspot neu starten über System, Neustarten.
 
 ## DNS editieren:  
 Mit `sudo nano /etc/dnsmasq.conf` folgende Zeile ergänzen:  

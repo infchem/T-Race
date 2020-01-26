@@ -17,6 +17,7 @@ Hier ist das Video der Preisverleihung:
 " target="_blank"><img src="docs/fotos/Preisverleihung.jpg" 
 alt="IdeenExpo 2019 Preisverleihung" width="800" border="10" /></a>
 
+## Ideenfang-Variante
 Wer das Spiel im Unterricht einsetzen möchte, verwendet in der **Ideenfang-Variante** ein paar Calliope mini mit externen Sensoren für NFC-Karten und Multitouch sowie ein paar Raspberry Pi Zero mit Zubehör, wie Blinkt! Modulen. Zusätzlich wird ein MakeyMakey benötigt. Für die Shopartikel können kleine Objekte mit einem 3D-Drucker und einem Schneideplotter angefertigt werden. Für eine Neuanschaffung ist diese Variante die teuerste.
 
 - [Dokumentation Ideenfang-Variante](docs/ideenfang_variante.md)
