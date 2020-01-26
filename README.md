@@ -3,7 +3,7 @@
 ![T-Race](https://github.com/infchem/T-Race/raw/master/docs/t-race_github.png)
 Bezahlen mit Smartphone und drahtlosen Chipkarten wird immer beliebter. Doch welche Spuren hinterlässt man dabei? Mit dem eigenen Smartphone kann im rasanten Spiel T-Race die eigene Datenspur entdeckt werden - komplett ohne Risiken und Nebenwirkungen: T-Race funktioniert mit einem lokalen WLAN-Hotspot und Webserver, der keine Verbindung ins Internet ermöglicht!
 
-![Spielszene aus T-Race](docs/fotos/Spielszene.jpg?raw=true "Title"){:height="700px" width="400px"}
+![Spielszene aus T-Race](docs/fotos/Spielszene.jpg?raw=true "Title")
 
 Das Spiel wurde 2018/2019 in der Medienscout AG des [Lessing-Gymnasiums Uelzen](https://www.leg-uelzen.de) entwickelt und ist mit &#x2764; für den Einsatz im Schulunterricht gestaltet und erprobt worden. 
 
@@ -13,7 +13,7 @@ Hier ist das Video der Preisverleihung:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=iMUnrel8Pag
 " target="_blank"><img src="docs/fotos/Preisverleihung.jpg" 
-alt="IdeenExpo 2019 Preisverleihung" width="800" height="600" border="10" /></a>
+alt="IdeenExpo 2019 Preisverleihung" width="800" border="10" /></a>
 
 Wer das Spiel im Unterricht einsetzen möchte, verwendet in der **Ideenfang-Variante** ein paar Calliope mini mit externen Sensoren für NFC-Karten und Multitouch sowie ein paar Raspberry Pi Zero mit Zubehör, wie Blinkt! Modulen. Zusätzlich wird ein MakeyMakey benötigt. Für die Shopartikel können kleine Objekte mit einem 3D-Drucker und einem Schneideplotter angefertigt werden. Für eine Neuanschaffung ist diese Variante die teuerste.
 
