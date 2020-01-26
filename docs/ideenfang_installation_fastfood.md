@@ -1,7 +1,7 @@
 # Installation Fast Food-Restaurant
 
-![Fast Food in der Ideenfang-Variante](fotos/Fastfood_Ideenfang.jpg?raw=true "Title"){:height="700px" width="400px"}
-
+![Fast Food in der Ideenfang-Variante](fotos/Fastfood_Ideenfang.jpg?raw=true "Title")
+<img src="fotos/Fastfood_Ideenfang.jpg" width="800" border="10" />
 
 ## Hardware
 
