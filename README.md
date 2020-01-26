@@ -3,6 +3,8 @@
 ![T-Race](https://github.com/infchem/T-Race/raw/master/docs/t-race_github.png)
 Bezahlen mit Smartphone und drahtlosen Chipkarten wird immer beliebter. Doch welche Spuren hinterlässt man dabei? Mit dem eigenen Smartphone kann im rasanten Spiel T-Race die eigene Datenspur entdeckt werden - komplett ohne Risiken und Nebenwirkungen: T-Race funktioniert mit einem lokalen WLAN-Hotspot und Webserver, der keine Verbindung ins Internet ermöglicht!
 
+![Spielszene aus T-Race](fotos/Spielszene.jpg?raw=true "Title"){:height="700px" width="400px"}
+
 Das Spiel wurde 2018/2019 in der Medienscout AG des [Lessing-Gymnasiums Uelzen](https://www.leg-uelzen.de) entwickelt und ist mit &#x2764; für den Einsatz im Schulunterricht gestaltet und erprobt worden. 
 
 T-Race ist das Gewinnerprojekt des Ideenfang-Wettbewerbs auf der [IdeenExpo 2019](https://www.ideenexpo.de) in der 2. Altersgruppe! 
