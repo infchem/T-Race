@@ -18,10 +18,10 @@ Lies dir genau die folgenden Regeln durch, damit du nicht sofort im Spiel stirbs
 2. Du hast Essens- und Fitnesspunkte, die kontinuierlich sinken. Ist einer der Zähler auf 0, bist du tot.
 3. Du kannst dir Rabattgutscheine holen. Mal zahlst du weniger, mal bekommst du einen Artikel gratis dazu. Wo die Gutscheine jeweils einlösbar sind, steht auf ihnen drauf. Du aktivierst einen Gutschein durch Antippen. Er wird dann beim Kauf am passenden Geschäft automatisch verrechnet.
 3. Holst du dir keine Gutscheine, zahlst du Strafsteuern.
-4.  Zum Kaufen eines Artikels legst du deine Spielkarte an die vorgesehene Stelle, drückst auf das Artikelbild und dann auf den Schalter zum Bestätigen des Kaufs. Hat alles geklappt, leuchten die LEDs grün, sonst rot.
+4. Zum Kaufen eines Artikels legst du deine Spielkarte an die vorgesehene Stelle, drückst auf das Artikelbild und dann auf den Taster zum Bestätigen des Kaufs. Hat alles geklappt, leuchten die LEDs grün, sonst rot.
 5. Es gibt sieben Geschäfte: Bäcker, Fast Food-Restaurant, Sportladen, Fanshop, Supermarkt, Kasino. Der Webshop ist direkt auf der Webseite des Spiels zu finden.
 6. Die Artikel lassen die Essens- und Fitnesspunkte sinken oder steigen. Überlege genau, was du brauchst!
-7. Keine Panik: Sämtliche Daten von dir werden nur auf dem Computer in der Mitte des Spiels gespeichert und nicht im Internet veröffentlicht. Die Daten können jederzeit gelöscht werden vom Spielleiter.
+7. Keine Panik: Sämtliche Daten von dir werden nur auf dem Computer in der Mitte des Spiels gespeichert und nicht im Internet veröffentlicht. Die Daten können vom Spieler jederzeit gelöscht werden.
 
 
 Alles klar? Dann los!
