@@ -8,6 +8,8 @@ in einer anonymem Umfrage rückgemeldet, wie sie im Spiel entscheiden würden. D
 im Steckbrief "gnadenlos" aufgeführt, wie seine Altersgruppe im direkten Vergleich entschieden hat. Echte Datenspuren eben!
 
 Ein Spieler-Steckbrief ist in den folgenden Screenshots zu sehen:
+
+
 <img src="screenshots/Auswertung_1.png" alt="T-Race Auswertung 1" width=45% border="10" /> <img src="screenshots/Auswertung_2.png" alt="T-Race Auswertung 2" width=45% border="10" />
 <img src="screenshots/Auswertung_3.png" alt="T-Race Auswertung 3" width=45% border="10" /> <img src="screenshots/Auswertung_4.png" alt="T-Race Auswertung 4" width=45% border="10" />
 <img src="screenshots/Auswertung_5.png" alt="T-Race Auswertung 5" width=45% border="10" />

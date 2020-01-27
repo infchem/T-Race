@@ -23,7 +23,7 @@ Hier ist das Video der Preisverleihung:
 Abb. links: T-Race Shops auf der IdeenExpo 2019.
 
 Abb. rechts: ein Spieler mit Smartphone schaut sich seine Spielergebnisse an. 
-<img src="fotos/Smartphone_Shop.jpg" width="45%"></img> <img src="fotos/Spiel_am_Stand.jpg" width="45%"></img>
+<img src="docs/fotos/Smartphone_Shop.jpg" width="45%"></img> <img src="docs/fotos/Spiel_am_Stand.jpg" width="45%"></img>
 
 
 ## Ideenfang-Variante
