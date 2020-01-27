@@ -3,7 +3,7 @@
 Mit dieser Variante wurde T-Race auf der [IdeenExpo 2019](https://www.ideenexpo.de) präsentiert. Sie verwendet unter anderem Calliope mini und RaspberryPi Zero und ist daher sicherlich nicht die günstige Variante.
 Allerdings kann die Hardware für andere Unterrichtsprojekte problemlos weiterverwendet werden. 
 
-<img src="docs/fotos/Stele_1.jpg" width="45%"></img> <img src="docs/fotos/Stele_2.jpg" width="45%"></img>
+<img src="fotos/Stele_1.jpg" width="45%"></img> <img src="fotos/Stele_2.jpg" width="45%"></img>
 
 ## Materialliste
 Ein Spiel besteht aus einem Server, mehreren Shops und den Smartphones der Spieler. In der Ideenfang-Variante werden für Server und Shops insgesamt folgende Dinge benötigt:
@@ -34,10 +34,11 @@ Ein Spiel besteht aus einem Server, mehreren Shops und den Smartphones der Spiel
 - Schere, Zange, Cutter, Akkusschrauber mit Holzbohrern, Schraubendreher
 
 
-## Server
-Für den Server gibt es eine separate [Anleitung](installation_server.md).
+## Material vorbereiten
+### Server
+Für den Server auf Basis eines RaspberryPi Zero W gibt es eine separate [Anleitung](installation_server.md).
 
-## Shops
+### Shops
 
 Für die Softwareinstallation gibt es für die RaspberryPi Zero W eine [gemeinsame Anleitung](ideenfang_installation_shops.md).
 
@@ -52,5 +53,10 @@ Die unterschiedlichen Anpassungen an die Calliope mini und sonstige Hardware sin
 - für den [Webshop](ideenfang_installation_webshop.md)
 
 ### Shopboxen
-<img src="docs/fotos/Demo_Ideenfang.jpg" alt="Demo-Shop ohne Schirm" width="800" border="10" />
+<img src="fotos/Demo_Ideenfang.jpg" alt="Demo-Shop ohne Schirm" border="10" />
 Wir haben auf der [IdeenExpo 2019](https://www.ideenexpo.de) jede Shop-Hardware in eine Sortierbox aus dem Baumarkt eingebaut. Hierzu gibt es auch eine [Anleitung](shopbox_anleitung.md).  
+
+### Kasino-Spiele
+
+## T-Race Apps
+

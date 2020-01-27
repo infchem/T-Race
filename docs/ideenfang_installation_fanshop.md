@@ -21,7 +21,8 @@
 * ggf. mit 3D-Drucker ausgedruckte [Dinochip 01]https://github.com/infchem/T-Race/blob/master/Shops/Fanshop/Dinotaler_01.stl), [Dinochip10](https://github.com/infchem/T-Race/blob/master/Shops/Fanshop/Dinotaler_10.stl) und [Dinopfeife](https://github.com/infchem/T-Race/blob/master/Shops/Fanshop/Dinopfeife.stl)
 
 ## Vorbereitung der Hardware
-1. Der Pi Zero W wird entsprechend der Anleitung für alle Shops vorbereitet.
+Zum Einbau des Shops in eine eine Sortierbox gibt es  eine separate [Anleitung](shopbox_anleitung.md).  
+1. Der Pi Zero W wird entsprechend der [Anleitung für alle Shops](ideenfang_installation_shops.md)	 vorbereitet.
 2. Mit einem Computer wird die Datei [mini-Fanshop.hex](https://github.com/infchem/T-Race/blob/master/Shops/Fanshop/mini-Fanshop.hex) auf den Calliope mini kopiert.
 2. Der Calliope mini wird am linken Grove-Anschluss A0 per Kabel mit dem I2C Hub verbunden.
 3. An den Hub werden Grove NFC und Grove I2C Multitouch per Kabel angeschlossen.
@@ -31,4 +32,4 @@
 * Fühler 0: Dinochips
 * Fühler 1: Dinopfeife
 
-8. An Pin P0 und dem Minuspol werden zwei Krokoklemmen oder Drähte angeschlossen und mit einem Taster verbunden.
+8. An Pin P0 und dem Minuspol werden zwei Krokoklemmen oder Drähte angeschlossen und mit einem externer Schalter, zum Beispiel [Kartoffelsackschalter](Kartoffelsackschalter.pdf), verbunden.

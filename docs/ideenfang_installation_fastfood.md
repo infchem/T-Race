@@ -1,9 +1,8 @@
 # Installation Fast Food-Restaurant
 
-![Fast Food in der Ideenfang-Variante](fotos/Fastfood_Ideenfang.jpg?raw=true "Title")
-<img src="fotos/Fastfood_Ideenfang.jpg" height="600" border="10" />
+![Fast Food-Restaurant in der Ideenfang-Variante](fotos/Fastfood_Ideenfang.jpg?raw=true "FastFood-Restaurant")
 
-## Hardware
+## Materialliste
 
 * Pi Zero W
 * Blinkt! Modul
@@ -20,8 +19,9 @@
 * Panzerband
 * ggf. passendes, selbstgebautes Gehäuse
 
-## Vorbereitung der Hardware
-1. Der Pi Zero W wird entsprechend der Anleitung für alle Shops vorbereitet.
+## Material vorbereiten 
+Zum Einbau des Shops in eine eine Sortierbox gibt es  eine separate [Anleitung](shopbox_anleitung.md).  
+1. Der Pi Zero W wird entsprechend der [Anleitung für alle Shops](ideenfang_installation_shops.md) vorbereitet.
 2. Mit einem Computer wird die Datei [mini-Fast-Food-Restaurant.hex](https://github.com/infchem/T-Race/blob/master/Shops/Fast%20Food-Restaurant/mini-Fast-Food-Restaurant.hex) auf den Calliope mini kopiert.
 2. Der Calliope mini wird am linken Grove-Anschluss A0 per Kabel mit dem I2C Hub verbunden.
 3. An den Hub werden Grove NFC und Grove I2C Multitouch per Kabel angeschlossen.
@@ -34,4 +34,4 @@
 * Fühler 3: Dinokeule
 * Fühler 4: Currywurst
 * Fühler 5: Burger
-8. An Pin P0 und dem Minuspol werden zwei Krokoklemmen oder Dähte angeschlossen und mit einem Taster verbunden.
+8. An Pin P0 und dem Minuspol werden zwei Krokoklemmen oder Dähte angeschlossen und mit einem externer Schalter, zum Beispiel [Kartoffelsackschalter](Kartoffelsackschalter.pdf), verbunden.

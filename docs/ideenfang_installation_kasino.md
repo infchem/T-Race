@@ -25,7 +25,8 @@
 * ggf. passendes, selbstgebautes Gehäuse
 
 ## Vorbereitung der Hardware
-1. Der Pi Zero W wird entsprechend der Anleitung für alle Shops vorbereitet.
+Zum Einbau des Shops in eine eine Sortierbox gibt es  eine separate [Anleitung](shopbox_anleitung.md).  
+1. Der Pi Zero W wird entsprechend der [Anleitung für alle Shops](ideenfang_installation_shops.md) vorbereitet.
 2. Mit einem Computer wird die Datei [mini-Kasino.hex](https://github.com/infchem/T-Race/blob/master/Shops/Kasino/mini-Kasino.hex) auf den Calliope mini kopiert.
 2. Der Calliope mini wird am linken Grove-Anschluss A0 per Kabel mit dem I2C Hub verbunden.
 3. An den Hub werden Grove NFC und Grove I2C Multitouch per Kabel angeschlossen.
@@ -34,7 +35,7 @@
 6. Die zwei Fühler werden wie folgt hinter die Artikelbilder geklebt:
 * Fühler 0: Hau den Dino-Spiel
 * Fühler 1: Heißer Dino-Spiel
-8. An Pin P0 und dem Minuspol werden zwei Krokoklemmen oder Dähte angeschlossen und mit einem Taster verbunden.
+8. An Pin P0 und dem Minuspol werden zwei Krokoklemmen oder Dähte angeschlossen und mit einem externer Schalter, zum Beispiel [Kartoffelsackschalter](Kartoffelsackschalter.pdf), verbunden.
 
 ## Vorbereiten der Spiele
 ### Hau den Dino-Spiel

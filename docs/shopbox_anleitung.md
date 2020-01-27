@@ -1,10 +1,10 @@
 # T-Race Shops aus Werkzeugboxen (Ideenfang-Variante)
 
-In der T-Race Ideenfang-Variante werden die Calliope mini und RaspberryPi W mit den
+In der T-Race Ideenfang-Variante werden die Calliope mini und RaspberryPi Zero W mit den
 Grove-Sensoren und etwas Dekomaterial in Werkzeugboxen aus dem Baumarkt verbaut.
 Ein zerlegter Bäckershop besteht aus folgenden Teilen:
 
-![T-Race](https://github.com/infchem/T-Race/raw/master/docs/shopbox_material.jpg)
+![Shopbox in der Ideenfang-Variante](fotos/Shopbox_Material.jpg?raw=true "Shopbox Ideenfang-Variante")
 
 
 ## Materialliste pro Shopbox

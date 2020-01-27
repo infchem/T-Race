@@ -1,0 +1,13 @@
+Autostart von liesCalliope.py an Shops
+„sudo nano /etc/rc.local“ ausführen und dann am Ende der Datei den gewünschten Konsolenbefehl einfügen, hier so etwas wie: „sudo python [Dateispeicherort]“.
+
+## Admin-Login zum Bearbeiten der Webseiten
+http://start.t-race/index.php/Admin
+Username: admin
+Password: traceadmin
+
+## Zurücksetzen von T-Race
+1. Mit PuTTY auf start.t-race verbinden und mit pi/traceadmin einloggen.
+2. Ausführen von `sudo unzip -o t-race.zip -d /var/www/html/`. Letztes / nicht vergessen!.
+3. `sudo chown -R www-data /var/www/html`
+4. `sudo chgrp -R www-data /var/www/html`

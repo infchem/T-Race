@@ -21,7 +21,8 @@
 * falls möglich, mit 3D-Drucker ausgedruckte [Dinoaufkleber](https://github.com/infchem/T-Race/blob/master/Shops/Supermarkt/DinoSticker.studio3) in verschiedenen Farben (siehe unten)
 
 ## Vorbereitung der Hardware
-1. Der Pi Zero W wird entsprechend der Anleitung für alle Shops vorbereitet.
+Zum Einbau des Shops in eine eine Sortierbox gibt es  eine separate [Anleitung](shopbox_anleitung.md).  
+1. Der Pi Zero W wird entsprechend der [Anleitung für alle Shops](ideenfang_installation_shops.md) vorbereitet.
 2. Mit einem Computer wird die Datei [mini-Supermarkt.hex](https://github.com/infchem/T-Race/blob/master/Shops/Supermarkt/mini-Supermarkt.hex) auf den Calliope mini kopiert.
 2. Der Calliope mini wird am linken Grove-Anschluss A0 per Kabel mit dem I2C Hub verbunden.
 3. An den Hub werden Grove NFC und Grove I2C Multitouch per Kabel angeschlossen.
@@ -34,4 +35,4 @@
 * Fühler 3: Aufkleber grün
 * Fühler 4: Aufkleber schwarz
 * Fühler 5: Aufkleber violett
-8. An Pin P0 und dem Minuspol werden zwei Krokoklemmen oder Drähte angeschlossen und mit einem Taster verbunden.
+8. An Pin P0 und dem Minuspol werden zwei Krokoklemmen oder Drähte angeschlossen und mit einem externer Schalter, zum Beispiel [Kartoffelsackschalter](Kartoffelsackschalter.pdf), verbunden.
