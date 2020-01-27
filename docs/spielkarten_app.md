@@ -1,6 +1,6 @@
 # T-Race Spielkarten-App (nur Android)
 
-![T-Race Spielkarten](fotos/Spielkarten.jpg?raw=true "T-Race Spielkarten")
+<img src="fotos/Spielkarten.jpg" alt="T-Race Spielkarten" width=60% border="10" />
 
 Auf der Spielkarte wird die Spielernummer gespeichert, die der Spieler bei der Registrierung erhält.
 Die Spielernummer wird automatisch als sogenannter Primärschlüssel in der Datenbank vergeben und ist eindeutig. 
@@ -29,7 +29,8 @@ Zum Installieren der App auf dem Smartphone oder Tablet der Spielleitung geht ma
 2. Die [hex-Datei](../Sonstiges/Spielerkarte/mini-Spielerkarte.hex?raw=true) zum Einstellen der Spielernummer und Beschreiben der NFC-Karte wird auf den Calliope mini kopiert.
  
 ##Verwendung der App mit Calliope mini
-![T-Race Spielkarten-App](screenshots/Spielkarten-App.png?raw=true width=60% "T-Race Spielkarten-App")
+<img src="screenshots/Spielkarten-App.png" alt="T-Race Spielkarten App" width=60% border="10" />
+
 1. Das Smartphone wird mit dem T-Race Hotspot verbunden.
 2. Der Calliope mini wird mit dem Batteriepack oder einer Powerbank verbunden und eingeschaltet.
 3. Nachdem sich ein Spieler registriert hat, kann der Spielername (nicht Vorname/Name) in das entsprechende Feld der App eingegeben und die Spielernummer abgerufen werden.
