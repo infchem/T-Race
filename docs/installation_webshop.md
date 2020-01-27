@@ -1,4 +1,4 @@
-# Installation Weshop
+# Installation Webshop
 Der Webshop wird vom zentralen Server an die Smartphones der Spieler ausgeliefert und kann vollständig im Browser besucht werden.
 
 ![T-Race Webshop](screenshots/Webshop.png?raw=true "T-Race Webshop")
