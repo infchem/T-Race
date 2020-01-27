@@ -26,9 +26,9 @@ Zum Installieren der App auf dem Smartphone oder Tablet der Spielleitung geht ma
 
 ### Calliope mini
 1. Der Grove NFC wird mit dem Verbindungskabel an die linke Grove-Buchse A0 des Calliope mini angeschlossen.
-2. Die [hex-Datei](../Sonstiges/Spielerkarte/mini-Spielerkarte.hex?raw=true) zum Einstellen der Spielernummer und Beschreiben der NFC-Karte wird auf den Calliope mini kopiert.
+2. Die [HEX-Datei](../Sonstiges/Spielerkarte/mini-Spielerkarte.hex?raw=true) zum Einstellen der Spielernummer und Beschreiben der NFC-Karte wird auf den Calliope mini kopiert.
  
-##Verwendung der App mit Calliope mini
+## Verwendung der App mit Calliope mini
 <img src="screenshots/Spielkarten-App.png" alt="T-Race Spielkarten App" width=60% border="10" />
 
 1. Das Smartphone wird mit dem T-Race Hotspot verbunden.

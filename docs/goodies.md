@@ -64,6 +64,9 @@ Die Dinosaurierbilder werden für das Spiel T-Race zur Verfügung gestellt von [
  [TerraER](www.terraer.com.br).
 - Umfrageergebnisse zum Konsumverhalten von 763 SchülerInnen und LehrerInnen im [CSV-Format](../Sonstiges/Datenbank/umfrage-zum-konsumverhalten-ideenexpo-2019.csv?raw=true).
 - Importieren eigener Umfrageergebnisse in die Datenbank mit einem [Python-Skript](../Sonstiges/Datenbank/csvToDatabase.py?raw=true).
+- MakeCode-Screenshot zum [Beschreiben der NFC-Karten](../screenshots/Spielkarten_App_Calliope_Blöcke.png?raw=true)
+- App Inventor-Screenshots zum [Auslesen der Spielernummer](../screenshots/Spielkarten-App_Blöcke.png?raw=true)
+- App Inventor-Screenshots der [Kasino-App](../screenshots/Kasino-App_Blöcke.png?raw=true)
 
 ## Sonstiges
 - Eine kreative DIY-Beamerhalterung für Hau den Dino ist [hier abgebildet](../Sonstiges/Beamerhalterung.jpg?raw=true)
