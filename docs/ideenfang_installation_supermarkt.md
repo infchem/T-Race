@@ -35,4 +35,4 @@ Zum Einbau des Shops in eine eine Sortierbox gibt es  eine separate [Anleitung](
 * Fühler 3: Aufkleber grün
 * Fühler 4: Aufkleber schwarz
 * Fühler 5: Aufkleber violett
-8. An Pin P0 und dem Minuspol werden zwei Krokoklemmen oder Drähte angeschlossen und mit einem externer Schalter, zum Beispiel [Kartoffelsackschalter](Kartoffelsackschalter.pdf), verbunden.
+8. An Pin P0 und dem Minuspol werden zwei Krokoklemmen oder Drähte angeschlossen und mit einem externer Schalter, zum Beispiel [Kartoffelsackschalter](../Sonstiges/Kartoffelsackschalter.pdf), verbunden.

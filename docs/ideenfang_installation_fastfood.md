@@ -34,4 +34,4 @@ Zum Einbau des Shops in eine eine Sortierbox gibt es  eine separate [Anleitung](
 * Fühler 3: Dinokeule
 * Fühler 4: Currywurst
 * Fühler 5: Burger
-8. An Pin P0 und dem Minuspol werden zwei Krokoklemmen oder Dähte angeschlossen und mit einem externer Schalter, zum Beispiel [Kartoffelsackschalter](Kartoffelsackschalter.pdf), verbunden.
+8. An Pin P0 und dem Minuspol werden zwei Krokoklemmen oder Dähte angeschlossen und mit einem externer Schalter, zum Beispiel [Kartoffelsackschalter](../Sonstiges/Kartoffelsackschalter.pdf), verbunden.

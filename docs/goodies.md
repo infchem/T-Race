@@ -69,7 +69,9 @@ Die Dinosaurierbilder werden für das Spiel T-Race zur Verfügung gestellt von [
 - App Inventor-Screenshots der [Kasino-App](../screenshots/Kasino-App_Blöcke.png?raw=true)
 
 ## Sonstiges
-- Eine kreative DIY-Beamerhalterung für Hau den Dino ist [hier abgebildet](../Sonstiges/Beamerhalterung.jpg?raw=true)
+- Eine Variante des [Hau den Dino-Projekts](../Shops/Kasino/Hau den Dino_QR.sb3) in Scratch mit einem QR Code, der beim Öffnen des Links den Punktestand in der Datenbank 
+speichern lässt.
+- Eine kreative DIY-Beamerhalterung für Hau den Dino ist [hier abgebildet](../Sonstiges/Beamerhalterung.jpg?raw=true).
 
 
 

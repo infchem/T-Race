@@ -17,7 +17,7 @@ In der vorbereiteten Variante wird mit Hilfe der App die Nummer ausgelesen und m
 - 1 Batteriepack, alternativ Powerbank mit Micro USB-Kabel
 - mehrere NFC-Karten
 
-##M aterialvorbereitung
+## Materialvorbereitung
 ### App
 Zum Installieren der App auf dem Smartphone oder Tablet der Spielleitung geht man wie folgt vor:
 1. Installieren aus unbekannten Quellen in den Systemeinstellungen zulassen.

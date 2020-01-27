@@ -32,4 +32,4 @@ Zum Einbau des Shops in eine eine Sortierbox gibt es  eine separate [Anleitung](
 * Fühler 0: Dinochips
 * Fühler 1: Dinopfeife
 
-8. An Pin P0 und dem Minuspol werden zwei Krokoklemmen oder Drähte angeschlossen und mit einem externer Schalter, zum Beispiel [Kartoffelsackschalter](Kartoffelsackschalter.pdf), verbunden.
+8. An Pin P0 und dem Minuspol werden zwei Krokoklemmen oder Drähte angeschlossen und mit einem externer Schalter, zum Beispiel [Kartoffelsackschalter](../Sonstiges/Kartoffelsackschalter.pdf), verbunden.

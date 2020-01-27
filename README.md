@@ -10,17 +10,20 @@ ermöglicht!
 <img src="docs/fotos/Spielszene.jpg" alt="T-Race Spielszene" width=100% border="10" />
 
 ## Zum Hintergrund des Spiels
-Das Spiel wurde 2018/2019 in der Medienscout AG des [Lessing-Gymnasiums Uelzen](https://www.leg-uelzen.de) entwickelt und ist mit &#x2764; für den Einsatz im Schulunterricht gestaltet und erprobt worden. 
+Das Spiel wurde im Schuljahr 2018/2019 in der Medienscout AG des [Lessing-Gymnasiums Uelzen](https://www.leg-uelzen.de) entwickelt und ist mit &#x2764; für den Einsatz im Schulunterricht gestaltet und erprobt worden. 
 
 T-Race ist das Gewinnerprojekt des Ideenfang-Wettbewerbs auf der [IdeenExpo 2019](https://www.ideenexpo.de) in der 2. Altersgruppe! 
 
 Hier ist das Video der Preisverleihung: 
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=iMUnrel8Pag
-" target="_blank"><img src="docs/fotos/Preisverleihung.jpg" 
-alt="IdeenExpo 2019 Preisverleihung" width="800" border="10" /></a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=iMUnrel8Pag" target="_blank">
+<img src="docs/fotos/Preisverleihung.jpg" alt="IdeenExpo 2019 Preisverleihung" width=100% border="10" /></a>
 
 ## Impressionen
+Abb. links: T-Race Shops auf der IdeenExpo 2019.
+
+Abb. rechts: ein Spieler mit Smartphone schaut sich seine Spielergebnisse an. 
+<img src="fotos/Smartphone_Shop.jpg" width="45%"></img> <img src="fotos/Spiel_am_Stand.jpg" width="45%"></img>
 
 
 ## Ideenfang-Variante
@@ -28,9 +31,10 @@ Wer das Spiel im Unterricht einsetzen möchte, verwendet in der **Ideenfang-Vari
 
 - [Dokumentation Ideenfang-Variante](docs/ideenfang_variante.md)
 - [Dokumentation Spielkarten-App](docs/spielkarten_app.md)
-- [Spielanleitung Spielleitung](docs/spielleitung.md)
-- [Spielanleitung Spieler](docs/spielanleitung.md)
+- [Anleitung Spielleitung](docs/spielleitung.md)
+- [Anleitung Spieler](docs/spielanleitung.md)
+- [Spoiler Spielende](docs/spielende.md)
 - [Goodies nicht nur für Lehrkräfte](docs/goodies.md)
 
-Für die **Budget-Variante** arbeiten wir zur Zeit daran, günstigere Hardware wie Arduino Nano, ESP8266 und STM32F103C8T6 zu programmieren und zu testen. Das klingt noch sehr kompliziert, wird aber wirklich viel günstiger! Und wir dokumentieren das natürlich auch gut. 😉
+Für die **low budget-Variante** arbeiten wir zur Zeit daran, günstigere Hardware wie Arduino Nano, ESP8266 und STM32F103C8T6 zu programmieren und zu testen. Das klingt noch sehr kompliziert, wird aber wirklich viel günstiger! Und wir dokumentieren das natürlich auch gut. 😉
 

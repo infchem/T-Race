@@ -32,4 +32,4 @@ Zum Einbau des Shops in eine eine Sortierbox gibt es  eine separate [Anleitung](
 6. Die zwei Fühler werden wie folgt mit Panzerband hinter die Artikelbilder geklebt:
 * Fühler 0: Taucher-Set
 * Fühler 1: Anziehpuppe
-8. An Pin P0 und dem Minuspol werden zwei Krokoklemmen oder Drähte angeschlossen und mit einem externer Schalter, zum Beispiel [Kartoffelsackschalter](Kartoffelsackschalter.pdf), verbunden.
+8. An Pin P0 und dem Minuspol werden zwei Krokoklemmen oder Drähte angeschlossen und mit einem externer Schalter, zum Beispiel [Kartoffelsackschalter](../Sonstiges/Kartoffelsackschalter.pdf), verbunden.

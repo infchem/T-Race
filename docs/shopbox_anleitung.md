@@ -29,7 +29,7 @@ Ein zerlegter Bäckershop besteht aus folgenden Teilen:
 - Laminierfolie und -gerät
 - Artikelbilder
 - ggf. Shopschild
-- externer Schalter, zum Beispiel [Kartoffelsackschalter](Kartoffelsackschalter.pdf)
+- externer Schalter, zum Beispiel [Kartoffelsackschalter](../Sonstiges/Kartoffelsackschalter.pdf)
 
 ## Video mit Aufbauanleitung 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=tBm3iVFp_Bo" 
