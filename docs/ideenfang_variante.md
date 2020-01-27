@@ -53,10 +53,20 @@ Die unterschiedlichen Anpassungen an die Calliope mini und sonstige Hardware sin
 - für den [Webshop](ideenfang_installation_webshop.md)
 
 ### Shopboxen
-<img src="fotos/Demo_Ideenfang.jpg" alt="Demo-Shop ohne Schirm" border="10" />
+<img src="fotos/Demo_Ideenfang.jpg" width="50%" alt="Demo-Shop ohne Schirm" border="10" />
+
 Wir haben auf der [IdeenExpo 2019](https://www.ideenexpo.de) jede Shop-Hardware in eine Sortierbox aus dem Baumarkt eingebaut. Hierzu gibt es auch eine [Anleitung](shopbox_anleitung.md).  
 
-### Kasino-Spiele
+## T-Race Spielkarten-App
+Auf der Spielkarte wird die Spielernummer gespeichert, die der Spieler bei der Registrierung erhält.
+Die Spielernummer wird automatisch als sogenannter Primärschlüssel in der Datenbank vergeben und ist eindeutig. 
+Sie wird nicht im Browser auf dem Smartphone des Spielers angezeigt, sondern muss mit der T-Race Spielkarten-App ermittelt werden.
+Die App ist nur für Android verfügbar nicht in Google Play verfügbar. 
 
-## T-Race Apps
+Zum Installieren auf dem Smartphone oder Tablet der Spielleitung geht man wie folgt vor:
+1. Installieren aus unbekannten Quellen zulassen
+2. Kopieren der [APK-Datei](../Sonstiges/Spielerkarte/T_Race_Spielerinfo.apk?raw=true) auf das Gerät
+3. Installieren der APK-Datei durch Öffnen und Bestätigen
+
+
 
