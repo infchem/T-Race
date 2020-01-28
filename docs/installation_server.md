@@ -91,7 +91,7 @@ Datei */include/install/install.php* mit `sudo rm -rf /var/www/html/include/inst
 3. `sudo chown -R www-data /var/www/html`
 4. `sudo chgrp -R www-data /var/www/html`
 
-Die Datei t-race.zip nicht löschen, da später durch erneutes Ausführen der Schritte 2-4 T-Race zurückgesetzt werden kann.
+Die Datei t-race.zip nicht löschen, da später durch erneutes Ausführen der Schritte 3-4 T-Race zurückgesetzt werden kann.
 
 ## Fertigstellung mit raspi-config
 

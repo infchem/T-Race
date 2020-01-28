@@ -1,6 +1,5 @@
 # Installation und Einrichtung der Shops
 
-[TOC]
 ## microSD vorbereiten
 1. [Raspian](https://downloads.raspberrypi.org/raspbian_full_latest) herunterladen und
 2. mit [Etcher]( https://www.balena.io/etcher/) auf eine leere microSD-Karte schreiben:
@@ -28,12 +27,33 @@ Mit [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) eine
        sudo apt-get update
        sudo apt-get upgrade
 	   
-## Installation von screen
+## Installation von screen (optional)
 Hilfreich, wenn die Verbindung zum Pi mal abbrechen sollte. Weitere Hinweise hierzu: https://wiki.ubuntuusers.de/Screen/
        sudo apt-get install screen
 
 ## Installation von Blinkt!
     curl https://get.pimoroni.com/blinkt | bash
+	
+## T-Race Datei übertragen
+Vorbereitetes Python-Skript zur Kommunikation zwischen Calliope mini und zentralem Server herunterladen mit
+   `sudo wget https://github.com/infchem/T-Race/blob/master/Shops/liesCalliope.py?raw=true`
+Den Pi Zero so konfigurieren, dass das Skript automatisch beim Booten ausgeführt wird:
+	sudo nano /etc/rc.local
+Am Ende von rc.local ergänzen:
+	sudo python /home/pi/liesCalliope.py &
+Abspeichern mit Strg+o und Enter, Beenden mit Strg+x
+
+## T-Race Hotspot einrichten
+Die Datei wpa_supplicant im Editor öffnen mit
+	sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+	
+Im Abschnitt `network` die Einträge für `ssid`und `psk` wie folgt ändern:
+	network={  
+        ssid="T-Race"  
+        psk="tracegame"  
+        key_mgmt=WPA-PSK  
+    } 
+Abspeichern mit Strg+o und Enter, Beenden mit Strg+x	
 
 ## Fertigstellung mit raspi-config
 
@@ -44,11 +64,3 @@ Hilfreich, wenn die Verbindung zum Pi mal abbrechen sollte. Weitere Hinweise hie
 4. Unter 4, I1 `de_DE.UTF-8 UTF-8` auswählen und als default bestätigen.
 5. Unter 4, I2 `Europe, Berlin` auswählen.
 6. `Finish` und Reboot bestätigen.
-
-
-# Dateien übertragen
-Zugriff mit [WinSCP](www.winscp.net)
-
-Nach dem Einloggen
-1. starten von `screen`
-2. starten von `python liesCalliope.py`
