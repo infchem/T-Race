@@ -71,14 +71,15 @@ Fehlermeldung ignorieren.
 5. `sudo chgrp -R www-data html`
 
 ## Typesetter einrichten
-Installation durch Aufruf von **10.3.141.1** im Browser öffnen.
-Eintragen folgender Werte in das Formular:
+`ifconfig`aufrufen und bei `wlan0:` die IP-Adresse hinter `inet` in einem Browser öffnen.
+
+Eintragen folgender Werte in das Installationsformular:
 * T-Race
 * admin@t-race.de
 * admin
 * traceadmin
 * traceadmin
-
+Auf `Install` klicken.
 Auf `View your Website` klicken. Achtung: längere Ladezeit beim ersten Aufruf!
 
 Datei */include/install/install.php* mit `sudo rm -rf /var/www/html/include/install/install.php` löschen.
@@ -86,7 +87,7 @@ Datei */include/install/install.php* mit `sudo rm -rf /var/www/html/include/inst
 ## T-Race Dateien übertragen
 1. In das Homeverzeichnis wechseln mit `cd ~`.
 1. Vorbereitetes Typesetter Addon, Seiten, Mediendateien und Datenbank herunterladen mit
-   `sudo wget https://github.com/infchem/T-Race/blob/master/Server/t-race.zip?raw=true`
+   `sudo wget https://github.com/infchem/T-Race/blob/master/Server/t-race.zip?raw=true -O t-race.zip`
 2. Ausführen von `sudo unzip -o t-race.zip -d /var/www/html/`. Letztes / nicht vergessen!.
 3. `sudo chown -R www-data /var/www/html`
 4. `sudo chgrp -R www-data /var/www/html`
@@ -124,6 +125,10 @@ Erweitert
 DHCP Server einrichten
 * Gültigkeit: 2 Hours(s)
 * Einstellungen speichern
+
+Ad Blocking
+* per Schieberegler deaktivieren.
+* Einstellungen speichern.
 
 Authentifizierung einrichten
 * Altes Passwort: secret
