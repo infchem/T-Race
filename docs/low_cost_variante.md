@@ -88,6 +88,24 @@ Achtung: Der Arduino Nano sendet von Pin D2 mit 5V seriell an den ESP8266 (Pin R
 
 <img src="../Nanoshops/ESP8266/Nano_ESP8266_Steckplatine.jpg" width="45%"></img>
 
+##### Anpassen des ESP8266
+Jeder ESP8266 muss einmalig angepasst werden in der seriellen Übertragungsgeschwindigkeit, mit der er mit dem Arduino Nano kommuniziert.
+Zusätzlich kann nach einem Firmware-Upate die SSID geändert werden, mit der er sich am RasPi Hotspot anmeldet. 
+Auch wenn die optionale SSID-Änderung einmalig mehr Aufwand für das Firmware-Update bedeutet, hat sie den Vorteil, dass man bei Netzwerk-Problemen viel einfacher in den Log-Dateien auf dem RasPi nachvollziehen kann, welcher Shop die Probleme verursacht oder gar nicht verbunden ist.
+Für die Anpassungen des ESP8266 gibt es eine eigene [Infoseite](esp8266_anpassung.md).
+
+
+##### Flashen des Arduino Nano
+Um die Programme auf den Arduino Nano zu übertragen, werden mit der [Arduino IDE](https://www.arduino.cc/en/Main/Software) folgende INO-Dateien verwendet:
+
+-  [Bäcker](Nanoshops/nano-Baecker/nano-Baecker.ino)
+-  [Fanshop](Nanoshops/nano-Fanshop/nano-Fanshop.ino)
+-  [Sportladen](Nanoshops/nano-Sportladen/nano-Sportladen.ino)
+-  [Fast Food-Restaurant](Nanoshops/nano-Fastfood/nano-Fastfood.ino)
+-  [Kasino](Nanoshops/nano-Kasino/nano-Kasino.ino)
+-  [Supermarkt](Nanoshops/nano-Supermarkt/nano-Supermarkt.ino)
+
+Je nach Seriell-zu-USB-Chip muss zuvor ein Treiber installiert werden, beispielsweise für [Nanos mit CH340-Chip unter Windows diesen Treiber](http://www.wch.cn/downloads/file/65.html), bevor der passende COM-Port in der Arduino IDE ausgewählt werden kann.
 
 #### Shop-Platine
 Wir haben in der Low-Cost-Variante die Taster und RGB-LED auf einer kleinen Platine verlötet und verkabelt. Über zwei 2x5 Buchsenleisten kann dann mit Schaltdraht die Verbindung zwischen den Komponenten und dem Steckbrett erfolgen, das unterhalb der Platine in dem selbstgedruckten Gehäuse untergebracht ist. Die Anordnung der Bauteile auf dem "Experimentier-Platine" ist wie folgt:
@@ -101,25 +119,6 @@ Vorderseite der Shop-Platinen für 2, 4 sowie 6 Artikel
 Rückseite der Shop-Platinen für 2, 4 sowie 6 Artikel
 
 <img src="fotos/Nanoshop_Platinen_Rückseite.jpg" width="45%"></img>
-
-#### Anpassen des ESP8266
-Jeder ESP8266 muss einmalig angepasst werden in der seriellen Übertragungsgeschwindigkeit, mit der er mit dem Arduino Nano kommuniziert.
-Zusätzlich kann nach einem Firmware-Upate die SSID geändert werden, mit der er sich am RasPi Hotspot anmeldet. 
-Auch wenn die optionale SSID-Änderung einmalig mehr Aufwand für das Firmware-Update bedeutet, hat sie den Vorteil, dass man bei Netzwerk-Problemen viel einfacher in den Log-Dateien auf dem RasPi nachvollziehen kann, welcher Shop die Probleme verursacht oder gar nicht verbunden ist.
-Für die Anpassungen des ESP8266 gibt es eine eigene [Infoseite](esp8266_anpassung.md).
-
-
-#### Flashen des Arduino Nano
-Um die Programme auf den Arduino Nano zu übertragen, werden mit der [Arduino IDE](https://www.arduino.cc/en/Main/Software) folgende INO-Dateien verwendet:
-
--  [Bäcker](Nanoshops/nano-Baecker/nano-Baecker.ino)
--  [Fanshop](Nanoshops/nano-Fanshop/nano-Fanshop.ino)
--  [Sportladen](Nanoshops/nano-Sportladen/nano-Sportladen.ino)
--  [Fast Food-Restaurant](Nanoshops/nano-Fastfood/nano-Fastfood.ino)
--  [Kasino](Nanoshops/nano-Kasino/nano-Kasino.ino)
--  [Supermarkt](Nanoshops/nano-Supermarkt/nano-Supermarkt.ino)
-
-Je nach Seriell-zu-USB-Chip muss zuvor ein Treiber installiert werden, beispielsweise für [Nanos mit CH340-Chip unter Windows diesen Treiber](http://www.wch.cn/downloads/file/65.html), bevor der passende COM-Port in der Arduino IDE ausgewählt werden kann.
 
 #### Shop-Gehäuse
 <img src="../Nanoshops/Gehäuse/shopgeh%C3%A4use.png" width="45%"></img>
@@ -143,7 +142,6 @@ Hinweise zur Deckelanpassung weiter unten beachten!
 Um beim zusammengebauten Gehäuse den Einschalter der Platine zur Spannungsversorgung zu drücken, aber nicht versehentlich auszudrücken, gibt es hierzu einen ["Spezialdrücker"](https://www.tinkercad.com/things/7KHX2bZ1ykE-drucker).
 
 <img src="../Nanoshops/Gehäuse/drücker.png" width="45%"></img>
-
 
 ##### Anpassung des Deckels
 Da die Shops unterschiedlich viele Artikeltaster haben (4x 2, 2x 4, 1x6), haben wir den Deckel aktuell noch ohne Löcher konstruiert. Entweder bohrt man diese mit einem Vorbohrer, dann einer Laubsäge und anschließend einer Rundfeile passgenau, oder man bearbeitet den Deckel in einer CAD-Software wie TinkerCAD so, dass die Löcher gleich "mitgedruckt" werden. Den Kauftaster nicht vergessen!
@@ -190,6 +188,22 @@ Der Prototyp in der Seitenansicht
 <img src="../docs/fotos/Nanoshop_Aufbau_8.jpg" width="45%"></img>
 
 Bilder eines sauber gedruckten Nanoshops reichen wir bei Gelegenheit nach!
+
+#### Nanoshop-Aufkleber und Artikelbilder
+
+Während in der Ideenfang-Variante die Touchsensoren direkt hinter den Artikelbildern liegen, müssen in der Low-Cost-Variante Taster ohne Bebilderung gedrückt werden. Für die Nanoshop-Deckel haben wir daher Aufklebervorlagen erstellt mit T-Race-Logo und Nummerierung der Tasten. Die größeren Kreise sind die Löcher für die Taster und müssen an die passende Stelle vor dem Ausdruck verschoben werden. Das Kästchen ist das Loch für den Einschalter, der kleine Kreis ist für die RGB-LED vorgesehen.
+
+Um die Zuordnung der Artikeltasten zu den jeweiligen Shopartikeln zu vereinfachen, haben wir die Artikelschilder aus der Ideenfang-Variante mit den passenden Ziffern versehen, die auch auf den Shop-Aufklebern zu finden sind. 
+
+Drei der sechs Nanoshop-Aufklebervorlagen
+
+<img src="screenshots/Nanoshop_Shopaufkleber.png" width="45%"></img>
+
+Drei der sechs nummerierten Nanoshop-Artikelbilder
+
+<img src="screenshots/Nanoshop_Artikelbilder.png" width="45%"></img>
+
+Artikelschilder und Shopaufkleber gibt es im [PPTX-Format](../Nanoshops/Nanoshop-Artikel.pptx) und im [PDF-Format](../Nanoshops/Nanoshop-Artikel.pdf).
 
 
 ### Kasino

@@ -1,5 +1,9 @@
 # Goodies in der T-Race Low-Cost-Variante
 
+## Fritzing
+
+Die Infografik zum Spannungsteiler haben wir mit [Fritzing](https://www.fritzing.org) und folgendem Projekt erstellt: [Nano und ESP8266](../Nanoshops/ESP8266/Nano_ESP8266.fzz)
+
 Bei der Spielerstellung sind die Artikelbilder und die Artikeltabelle hilfreich.
 
 ## Artikelbilder
@@ -9,7 +13,6 @@ Bei der Spielerstellung sind die Artikelbilder und die Artikeltabelle hilfreich.
 ## Artikeltabelle
 
 <img src="../Nanoshops/Shopartikelnummern.png" width="45%"></img>
-
 
 Wusstest du schon, dass...
 
