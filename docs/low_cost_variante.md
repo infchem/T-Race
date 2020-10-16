@@ -77,14 +77,12 @@ Diese funktioniert auch mit einem Raspberry Pi 3 Mod A+.
 
 ### Shops
 
-BILD SHOP
+Wir haben für die Low-Cost-Variante ein Gehäuse mit TinkerCAD erstellt und mit  3D-Druckern ausgedruckt. Im Bild ist unser erster Prototyp zu sehen. Der Deckel ist halbiert, weil bei einem der 3D-Drucker das Druckbett zu klein gewesen ist ;)
+
+<img src="fotos/Nanoshop_Prototyp.jpg" width="45%"></img>
 
 #### Shop-Steckbrett
 Für die Verkabelung des Nano mit dem ESP8266, dem Kartenleser, den Tastern und der RGB-LED gibt es eine [tabellarische Übersicht der Verkabelung](nanoshop_verkabelung_tabelle.md).
-
-Ohne die Verbindungsdrähte zu der Platine mit den Tastern und der LED sieht die Verkabelung auf dem Steckbrett so aus:
-
-BILD VERKABELUNG BREADBOARD
 
 Achtung: Der Arduino Nano sendet von Pin D2 mit 5V seriell an den ESP8266 (Pin RXD), welcher mit 3.3V läuft. Um dauerhafte Schäden zu vermeiden, ist ein einfacher Spannungsteiler mit zwei Widerständen (1 kOhm, 2.2 kOhm) auf dem Steckbrett notwendig.
 
@@ -153,8 +151,46 @@ Da die Shops unterschiedlich viele Artikeltaster haben (4x 2, 2x 4, 1x6), haben 
 Ebenfalls fehlen im Deckel die vier kleinen Löcher für die Endmontage, die mit einem Vorbohrer leicht ergänzt werden können:
 Die Montage erfolgt durch die dünnen Löcher mit Büroklammern, die erst gerade gebogen, dann durch die dünnen Löcher durchgesteckt, und dann wieder umgebogen werden (oben und unten). Je Shop sind vier Büroklammern nötig. Alternativ können dünne (M2) Maschinenschrauben mit Muttern verwendet werden. 
 
-
 Wenn wir Zeit finden, werden die drei Varianten des Deckels nachgereicht. ;)
+
+#### Zusammenbau Shopgehäuse
+
+Die folgende Bilderreihe zeigt den Zusammenbau des Nanoshops mit unserem Gehäuse. Es handelt sich um den Prototypen, daher hat der Deckel handgebohrte Löcher. Er ist halbiert, weil einer unserer 3D-Drucker eine zu kleine Druckplatte hat. Zum Fixieren weurden aufgebogene Büroklammern verwendet und noch keine Maschinenschrauben. Das Filament wurde mit zu kaltem Druckbett gedruckt und hat daher gewarpt (Ecken sind nach oben verzogen).
+
+Die Nanoshop-Gehäuseteile
+
+<img src="../docs/fotos/Nanoshop_Aufbau_1.jpg" width="45%"></img>
+
+Das Nanoshop-Steckbrett
+
+<img src="../docs/fotos/Nanoshop_Aufbau_2.jpg" width="45%"></img>
+
+Das Steckbrett im Unterteil
+
+<img src="../docs/fotos/Nanoshop_Aufbau_3.jpg" width="45%"></img>
+
+Die montierten Seitenteile
+
+<img src="../docs/fotos/Nanoshop_Aufbau_4.jpg" width="45%"></img>
+
+Die verkabelte Nanoshop-Platine
+
+<img src="../docs/fotos/Nanoshop_Aufbau_5.jpg" width="45%"></img>
+
+Die eingepassste Platine
+
+<img src="../docs/fotos/Nanoshop_Aufbau_6.jpg" width="45%"></img>
+
+Die Montage des Deckels
+
+<img src="fotos/Nanoshop_Prototyp.jpg" width="45%"></img>
+
+Der Prototyp in der Seitenansicht
+
+<img src="../docs/fotos/Nanoshop_Aufbau_8.jpg" width="45%"></img>
+
+Bilder eines sauber gedruckten Nanoshops reichen wir bei Gelegenheit nach!
+
 
 ### Kasino
 
