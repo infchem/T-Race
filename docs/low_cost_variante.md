@@ -45,8 +45,6 @@ Ein Spiel besteht aus einem Server, mehreren Shops und den Smartphones der Spiel
 - Filament
 - 24 Büroklammern oder dünne Maschinenschrauben mit Muttern.
 
-<img src="fotos/Shop_Gehäuse_Bauteile.jpg" width="45%"></img>
-
 #### Sonstiges
 - 1 Klassensatz RFID-Karten Typ Mifare Classic 1k 
 - 1 USB-Kabel mit A-Stecker auf Mini-B-Stecker zum Programmieren der Nanos
@@ -99,9 +97,11 @@ Wir haben in der Low-Cost-Variante die Taster und RGB-LED auf einer kleinen Plat
 <img src="fotos/Shop_Platine_skizziert.png" width="45%"></img>
 
 Vorderseite der Shop-Platinen für 2, 4 sowie 6 Artikel
+
 <img src="fotos/Nanoshop_Platinen_Vorderseite.jpg" width="45%"></img>
 
-Vorderseite der Shop-Platinen für 2, 4 sowie 6 Artikel
+Rückseite der Shop-Platinen für 2, 4 sowie 6 Artikel
+
 <img src="fotos/Nanoshop_Platinen_Rückseite.jpg" width="45%"></img>
 
 #### Anpassen des ESP8266
@@ -143,6 +143,7 @@ Hinweise zur Deckelanpassung weiter unten beachten!
 <img src="../Nanoshops/Gehäuse/boden_gesteckt.png" width="45%"></img>
 
 Um beim zusammengebauten Gehäuse den Einschalter der Platine zur Spannungsversorgung zu drücken, aber nicht versehentlich auszudrücken, gibt es hierzu einen ["Spezialdrücker"](https://www.tinkercad.com/things/7KHX2bZ1ykE-drucker).
+
 <img src="../Nanoshops/Gehäuse/drücker.png" width="45%"></img>
 
 

@@ -1,4 +1,4 @@
-# Goodies in der T-Race low-cost-Variante
+# Goodies in der T-Race Low-Cost-Variante
 
 Wusstest du, dass...
 

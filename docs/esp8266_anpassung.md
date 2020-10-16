@@ -2,13 +2,13 @@
 Um den ESP8266 zu flashen, in der T-Race low-cost-Variante wird ein ESP8266-01S verwendet, haben wir einen FTDI-Adapter verwendet.
 Der ESP wird per Jumperkabel an den Buchsen des FTDI-Adapters für 3.3V VCC, GND, RX, TX verbunden. Auf 3.3V ist zu achten sowie auf die korrekte Verbindung von TX/RX und RX/TX.
 
-<img src="../Nanoshops/ESP8266/esp8266_flash.jpg"‚ width="45%"></img>
+<img src="../Nanoshops/ESP8266/esp8266_flash.jpg" width="45%"></img>
 
 
 Nach Installation des FTDI-Treibers, falls notwendig, kann bspw. puTTY unter Windows oder die serielle Konsole der Arduino IDE verwendet werden, um seriell mit dem ESP zu kommunizieren.
 Die aktuelle Versionsinfo erhält man mit dem Befehl `AT+GMR`.
 
-<img src="../Nanoshops/ESP8266/esp8266_versionsinfo.png"‚ width="45%"></img>
+<img src="../Nanoshops/ESP8266/esp8266_versionsinfo.png" width="45%"></img>
 
 ## Firmware aktualisieren
 Im Wesentlichen wurde die Flash-Anleitung von [AZ Delivery](https://www.az-delivery.de/blogs/azdelivery-blog-fur-arduino-und-raspberry-pi/firmware-flashen-esp8622-01s) verwendet, jedoch haben wir ein aktuelleres SDK (3.0.4) verwendet: [Download von Espressif ESP8266 NONOS SDK 3.0.4](https://github.com/espressif/ESP8266_NONOS_SDK/archive/v3.0.4.zip)
