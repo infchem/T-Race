@@ -36,5 +36,10 @@ Wer das Spiel im Unterricht einsetzen möchte, verwendet in der **Ideenfang-Vari
 - [Spoiler Spielende](docs/spielende.md)
 - [Goodies nicht nur für Lehrkräfte](docs/goodies.md)
 
-Für die **low budget-Variante** arbeiten wir zur Zeit daran, günstigere Hardware wie Arduino Nano, ESP8266 und STM32F103C8T6 zu programmieren und zu testen. Das klingt noch sehr kompliziert, wird aber wirklich viel günstiger! Und wir dokumentieren das natürlich auch gut. 😉
+
+## Low-Cost-Variante 
+Für den kleinen (Schul-)etat ist die **Low-Cost-Variante** gedacht. Als Server kann wie in der Ideenfang-Variante ein kostengünstiger Raspberry Pi Zero W (W = WLAN) verwendet werden. Wir haben bei der Erstellung dieser Variante probehalber einen Raspberry Pi 3A+ verwendet. Dieser arbeitet durch seine Leistung die Serveranfragen schneller ab, kostet aber auch ein wenig mehr als der Pi Zero W. 
+
+- [Dokumentation Low-Cost-Variante](docs/low_cost_variante.md)
+- [Goodies nicht nur für Lehrkräfte](docs/low_cost_goodies.md)
 
