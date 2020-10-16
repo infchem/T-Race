@@ -80,7 +80,7 @@ Diese funktioniert auch mit einem Raspberry Pi 3 Mod A+.
 BILD SHOP
 
 #### Shop-Steckbrett
-Für die Verkabelung des Nano mit dem ESP8266, dem Kartenleser, den Tastern und der RGB-LED gibt es eine [tabellarische Übersicht der Verkabelung](nanoshops_verkabelung_tabelle.md).
+Für die Verkabelung des Nano mit dem ESP8266, dem Kartenleser, den Tastern und der RGB-LED gibt es eine [tabellarische Übersicht der Verkabelung](nanoshop_verkabelung_tabelle.md).
 
 Ohne die Verbindungsdrähte zu der Platine mit den Tastern und der LED sieht die Verkabelung auf dem Steckbrett so aus:
 
